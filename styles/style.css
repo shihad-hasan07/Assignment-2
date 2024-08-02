@@ -286,7 +286,7 @@
 .calculate-bmi-section {
     display: flex;
     justify-content: space-between;
-    height: 400px;
+    height: 487px;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -330,9 +330,7 @@
 }
 
 .bmi-calculator {
-    border: 1px solid blue;
     width: 650px;
-    height: 386px;
 }
 
 .bmi-calculator h3 {
@@ -346,26 +344,49 @@
 }
 
 /* bmi calculator form starts */
-.form{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+/* some universeral style */
+.style-2 {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 22px;
+    padding-left: 15px;
 }
 
-.form-data{
-    background-color: black;
+.form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+
+.activity {
+    width: 200%;
+}
+
+.form-data {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.10);
     height: 48px;
     border: none;
 }
 
 .gender{
-    color: white;
+    color: rgb(0, 0, 0);
 }
-
-.activity{
-    width: 200%;
+.btn {
+    width: 224px;
+    height: 54px;
+    padding: 16px 40px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    border-radius: 42px;
+    background: #E6533C;
+    margin-top: 34px;
 }
-
 
 
 /* Change your habits section starts  */
@@ -490,11 +511,12 @@
 
 
 /* Bmi calculator section start */
-.calculator-heading{
+.calculator-heading {
     max-width: 700px;
     margin: 88px auto;
     text-align: left;
 }
+
 .calculator-heading h2 {
     color: #FFF;
     font-family: Inter;
