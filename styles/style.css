@@ -477,7 +477,7 @@
     line-height: 120%;
     margin-top: 50px;
     margin-bottom: 14px;
-} 
+}
 
 /* bmi calculator form starts */
 /* some universeral style */
@@ -507,9 +507,10 @@
     border: none;
 }
 
-.gender{
+.gender {
     color: rgb(0, 0, 0);
 }
+
 .btn {
     width: 224px;
     height: 54px;
@@ -525,24 +526,24 @@
 }
 
 @media screen and (max-width:576px) {
-    .calculator-heading{
+    .calculator-heading {
         max-width: 576px;
         padding-left: 30px;
     }
 
-    .calculate-bmi-section{
+    .calculate-bmi-section {
         flex-direction: column;
         max-width: 576px;
         padding: 10px;
         margin: 0 30px;
     }
 
-    .bmi-calculator{
+    .bmi-calculator {
         max-width: 576px;
         padding-bottom: 20px;
     }
 
-    .form{
+    .form {
         grid-template-columns: repeat(2, 170px);
     }
 
@@ -617,7 +618,78 @@
     .img-0 {
         width: 350px;
     }
-    .img-hide{
+
+    .img-hide {
         display: none;
+    }
+}
+
+/* footer stars form here */
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-container h2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 39px;
+}
+
+.fitness-class {
+    color: #E6533C;
+    font-family: Inter;
+    font-size: 4.375rem;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 120%;
+    margin-bottom: 20px;
+}
+
+.footer-container p {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 1.43rem;
+    font-weight: 400;
+    line-height: 120%;
+    margin-bottom: 20px;
+}
+
+.footer-1 {
+    max-width: 443px;
+}
+
+.footer-2,
+.footer-3 {
+    max-width: 181px;
+}
+
+.hr {
+    max-width: 1200px;
+    margin: 95px auto 0 auto;
+    border: 2px solid  rgba(255, 255, 255, 0.10);
+}
+
+.copyright {
+    max-width: 318px;
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    margin: auto;
+    padding: 36px;
+}
+
+@media screen and (max-width:576px) {
+    .footer-container{
+        flex-direction: column;
     }
 }
