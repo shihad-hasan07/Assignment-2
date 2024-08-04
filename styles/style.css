@@ -19,6 +19,7 @@
 
 .navbar {
     display: flex;
+    position: relative;
     flex-direction: column;
     max-width: 1200px;
     margin: 0 auto;
@@ -28,7 +29,7 @@
 
 .nav-sec1 {
     display: flex;
-    width: 100%;
+    width: 100%;    
     margin-top: 30px;
     height: 40px;
     justify-content: space-between;
@@ -214,6 +215,7 @@
     letter-spacing: 0.5px;
 }
 
+
 @media screen and (max-width:576px) {
 
     .nav-links {
@@ -279,6 +281,20 @@
     .nav-extra p,
     .nav-extra1 p {
         font-size: 0.8rem;
+    }
+
+    .hamburger{
+        position: absolute;
+        top: 60px;
+        right: 50px;
+        width: 35px;
+    
+    }
+    .span {
+        display: flex;
+        border: 2px solid white;
+        height: 0px;
+        margin-bottom: 5px;
     }
 }
 
@@ -676,6 +692,7 @@
     border: 2px solid rgba(255, 255, 255, 0.10);
 }
 
+.copyright {
     max-width: 318px;
     color: rgba(255, 255, 255, 0.50);
     font-family: Inter;
