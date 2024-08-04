@@ -673,10 +673,9 @@
 .hr {
     max-width: 1200px;
     margin: 95px auto 0 auto;
-    border: 2px solid  rgba(255, 255, 255, 0.10);
+    border: 2px solid rgba(255, 255, 255, 0.10);
 }
 
-.copyright {
     max-width: 318px;
     color: rgba(255, 255, 255, 0.50);
     font-family: Inter;
@@ -689,7 +688,13 @@
 }
 
 @media screen and (max-width:576px) {
-    .footer-container{
+    .footer-container {
         flex-direction: column;
+        padding-left: 30px;
+    }
+
+    .footer-2,
+    .footer-3 {
+        margin-top: 50px;
     }
 }
