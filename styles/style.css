@@ -590,7 +590,7 @@
     font-weight: 900;
     line-height: 120%;
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 .up-event-container {
@@ -634,8 +634,6 @@
     }
     .event{
         padding-bottom: 50px;
-    }
-    .up-event-container{
         margin:0 auto ;
         margin: 5px solid white;
     }
