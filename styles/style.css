@@ -29,7 +29,7 @@
 
 .nav-sec1 {
     display: flex;
-    width: 100%;    
+    width: 100%;
     margin-top: 30px;
     height: 40px;
     justify-content: space-between;
@@ -283,13 +283,14 @@
         font-size: 0.8rem;
     }
 
-    .hamburger{
+    .hamburger {
         position: absolute;
         top: 60px;
         right: 50px;
         width: 35px;
-    
+
     }
+
     .span {
         display: flex;
         border: 2px solid white;
@@ -379,6 +380,8 @@
 .img img {
     width: 100%;
     border-radius: 30px;
+    Object-fit: none;
+    Object-position: 68% 30%;
 }
 
 @media screen and (max-width:576px) {
@@ -415,6 +418,10 @@
     .text button {
         width: 100%;
         margin: 10px 0;
+    }
+
+    .img img {
+        overflow: hidden;
     }
 }
 
@@ -566,6 +573,41 @@
     .activity {
         width: 206%;
     }
+}
+
+
+
+/* upcoming event section starts */
+.up-event-container-parent {
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.up-event-container {
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.10);
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.event{
+    width: 300px;
+    height: 350px;
+}
+.event img{
+    width: 100%;
+    border-radius: 18px;
+    height: 200px;
+}
+
+.event h2{
+    color: #FFF;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 900;
+line-height: 120%; /* 24px */
 }
 
 /* meet our team section start */
