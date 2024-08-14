@@ -560,6 +560,9 @@
         padding: 10px;
         margin: 0 30px;
     }
+    .bmi-table{
+        width: 350px;
+    }
 
     .bmi-calculator {
         max-width: 576px;
@@ -590,7 +593,16 @@
     font-weight: 900;
     line-height: 120%;
     text-align: center;
-    padding-bottom: 30px;
+}
+
+.up-event-container-parent > p{
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 20px;
 }
 
 .up-event-container {
